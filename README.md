@@ -42,7 +42,7 @@ DATA_PATH/
 #### MiniImageNet
 
 1. Descargar los archivos desde [este enlace](https://drive.google.com/file/d/0B3Irx3uQNoBMQ1FlNXJsZUdYWEE/view).
-2. Colocar los archivos en `data/miniImageNet/images`.
+2. Colocar los archivos en `DATA_PATH/miniImageNet/images`.
 3. Ejecutar el script de preparación: `scripts/prepare_mini_imagenet.py`
 
 #### YCBO
@@ -51,76 +51,77 @@ DATA_PATH/
 
 # Resultados
 
-En `experiments/experiments.txt` se incluyen los comandos ejecutar para obtener los resultados.
+En `results/` se encuentran los resultados obtenidos. Se incluyen los comandos empleados, la evolución de las métricas durante el entrenamiento, el modelo resultante y la huella de carbono.
+Para generar las tablas a partir de los csv de las métricas se puede emplear `/scripts/create_table`
 
 ### Matching Networks
 
 |                     | Omniglot|
 |---------------------|---------|
-| **k-way**           | **5**   |
-| **n-shot**          | **1**   |
-| Publicado (cosine)  | -    |
-| Repositorio (l2)    | -    |
+| **N-way**           | **5**   |
+| **K-shot**          | **1**   |
+| Publicado (cosine)  | 98,10   |
+| Repositorio (l2)    | 98,60   |
 
 |                        | miniImageNet|
 |------------------------|-------------|
-| **k-way**              | **5**       |
-| **n-shot**             | **1**       |
-| Published (cosine, FCE)| -        |
-| Repositorio (l2)       | -        |
+| **N-way**              | **5**       |
+| **K-shot**             | **1**       |
+| Published (cosine, FCE)| 44,20       |
+| Repositorio (l2)       | 44,60       |
 
 ### Redes prototípicas
 
 
 |                  | Omniglot |
 |------------------|----------|
-| **k-way**        | **5**    |
-| **n-shot**       | **1**    |
-| Publicado        | -     |
-| Repositorio      | -     |
+| **N-way**        | **5**    |
+| **K-shot**       | **1**    |
+| Publicado        | 98,80    |
+| Repositorio      | 99,00    |
 
 |                  | miniImageNet|
 |------------------|-------------|
-| **k-way**        | **5**       |
-| **n-shot**       | **1**       |
-| Publicado        | -        |
-| Repositorio      | -        |
+| **N-way**        | **5**       |
+| **K-shot**       | **1**       |
+| Publicado        | 49,40       |
+| Repositorio      | 51,60       |
 
 |                  | YCBO     |
 |------------------|----------|
-| **k-way**        | **5**    |
-| **n-shot**       | **1**    |
-| Repositorio      | -     |
+| **N-way**        | **5**    |
+| **K-shot**       | **1**    |
+| Repositorio      | 70,20    |
 
 ### MAML
 
 |                            |   Omniglot  |
 |----------------------------|-------------|
-| **k-way**                  | **5**       |
-| **n-shot**                 | **1**       |
-| Publicado                  | -        |
-| Repositorio (Primer orden) | -        |
+| **N-way**                  | **5**       |
+| **K-shot**                 | **1**       |
+| Publicado                  | 98,70       |
+| Repositorio (Primer orden) | 94,50       |
 
 |                            | miniImageNet|
 |----------------------------|-------------|
-| **k-way**                  | **5**       |
-| **n-shot**                 | **1**       |
-| Publicado                  | -       |
-| Repositorio (Primer orden) | -       |
+| **N-way**                  | **5**       |
+| **K-shot**                 | **1**       |
+| Publicado                  | 46,92       |
+| Repositorio (Primer orden) | 48,07       |
 
 ### SNAIL
 
 
 |                  | Omniglot |
 |------------------|----------|
-| **k-way**        | **5**    |
-| **n-shot**       | **1**    |
-| Publicado        | -     |
-| Repositorio      | -     |
+| **N-way**        | **5**    |
+| **K-shot**       | **1**    |
+| Publicado        | 99,07    |
+| Repositorio      | 98,34    |
 
 |                  | miniImageNet|
 |------------------|-------------|
-| **k-way**        | **5**       |
-| **n-shot**       | **1**       |
-| Publicado        | -        |
-| Repositorio      | -        |
+| **N-way**        | **5**       |
+| **K-shot**       | **1**       |
+| Publicado        | 50,68       |
+| Repositorio      | 55,71       |
