@@ -1,0 +1,11 @@
+python -m experiments.maml
+--dataset omniglot
+--n 1
+--k 5
+--q 1
+--inner-train-steps 1
+--inner-val-steps 3
+--inner-lr 0.4
+--meta-lr 0.001
+--meta-batch-size 32
+--order 1

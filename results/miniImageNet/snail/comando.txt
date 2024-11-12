@@ -1,0 +1,3 @@
+python -m experiments.snail
+--dataset mini_imagenet
+--cuda

@@ -1,0 +1,11 @@
+python -m experiments.maml
+--dataset miniImageNet
+--n 1
+--k 5
+--q 1
+--inner-train-steps 5
+--inner-val-steps 10
+--inner-lr 0.01
+--meta-lr 0.001
+--meta-batch-size 4
+--order 1

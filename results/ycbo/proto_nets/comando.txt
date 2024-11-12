@@ -1,0 +1,9 @@
+python -m experiments.proto_nets
+--dataset miniImageNet
+--distance l2
+--n-train 1
+--n-test 1
+--k-train 30
+--k-test 5
+--q-train 15
+--q-test 1

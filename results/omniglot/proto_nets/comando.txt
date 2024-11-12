@@ -1,0 +1,9 @@
+python -m experiments.proto_nets
+--dataset omniglot
+--distance l2
+--n-train 1
+--n-test 1
+--k-train 60
+--k-test 5
+--q-train 5
+--q-test 1
