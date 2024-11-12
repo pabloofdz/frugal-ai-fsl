@@ -51,7 +51,7 @@ DATA_PATH/
 
 # Resultados
 
-En `results/` se encuentran los resultados obtenidos. Se incluyen los comandos empleados, la evolución de las métricas durante el entrenamiento, el modelo resultante y la huella de carbono.
+En `results/` se encuentran los resultados obtenidos. Se incluyen los comandos empleados, la evolución de las métricas durante el entrenamiento y la huella de carbono (no se han incluído los modelos porque se superaba el límite de peso de Git)
 Para generar las tablas a partir de los csv de las métricas se puede emplear `/scripts/create_table`
 
 ### Matching Networks
