@@ -3,7 +3,7 @@ import os
 
 PATH = os.path.dirname(os.path.realpath(__file__))
 
-DATA_PATH = "/home/tfg/Documents/pablo_fernandez/Data/"
+DATA_PATH = None #Configure your data folder
 
 EPSILON = 1e-8
 

@@ -80,7 +80,7 @@ evaluation_taskloader = DataLoader(
 # Training #
 ############
 print(f'Training MAML on {args.dataset}...')
-meta_model = FewShotClassifier(num_input_channels, args.k).to(device, dtype=torch.double)
+meta_model = FewShotClassifier(num_input_channels, args.k, fc_layer_size).to(device, dtype=torch.double)
 meta_optimiser = torch.optim.Adam(meta_model.parameters(), lr=args.meta_lr)
 loss_fn = nn.CrossEntropyLoss().to(device)
 

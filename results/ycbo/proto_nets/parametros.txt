@@ -1,5 +1,5 @@
 python -m experiments.proto_nets
---dataset miniImageNet
+--dataset ycbo
 --distance l2
 --n-train 1
 --n-test 1

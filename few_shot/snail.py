@@ -3,8 +3,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from resnet_blocks import *
-from blocks import *
+from few_shot.resnet_blocks import *
+from few_shot.blocks import *
 
 class SnailFewShot(nn.Module):
     def __init__(self, N, K, task, use_cuda=True):
