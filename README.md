@@ -1,6 +1,6 @@
 # Inteligencia Artificial Frugal: Aprendizaje Automático con datos limitados
 
-En este repositorio se inclue la implementación de 4 técnicas de few-shot learning basadas en metaaprendizaje:
+En este repositorio se incluye la implementación de 4 técnicas de few-shot learning basadas en metaaprendizaje:
 1. Matching networks (Metaaprendizaje basado en métricas)
 2. Redes prototípicas (Metaaprendizaje basado en métricas)
 3. MAML (Metaaprendizaje basado en optimización)
@@ -51,7 +51,7 @@ DATA_PATH/
 
 # Resultados
 
-En `results/` se encuentran los resultados obtenidos. Se incluyen los comandos empleados, la evolución de las métricas durante el entrenamiento y la huella de carbono (no se han incluído los modelos porque se superaba el límite de peso de Git)
+En `results/` se encuentran los resultados obtenidos. Se incluyen los parámetros empleados, la evolución de las métricas durante el entrenamiento y la huella de carbono (no se han incluído los modelos porque se superaba el límite de peso de Git)
 Para generar las tablas a partir de los csv de las métricas se puede emplear `/scripts/create_table`
 
 ### Matching Networks
